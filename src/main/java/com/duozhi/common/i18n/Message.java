@@ -3,13 +3,11 @@ package com.duozhi.common.i18n;
 import java.io.Serializable;
 
 /**
- * 应用模块名称<p>
- * 代码描述<p>
- * Copyright: Copyright (C) 2018 Meijiequan.com, Inc. All rights reserved. <p>
- * Company: 研福网络<p>
- * @author weijun
- * @since 2018/11/19 21:03 
- */
+ * @program     : duozhi
+ * @description : 框架基础消息
+ * @author      : Jun Wei
+ * @create      : 2018-11-27 18:57
+ **/
 public class Message implements Serializable {
     /**  */
     private static final long     serialVersionUID = 1L;
@@ -75,7 +73,8 @@ public class Message implements Serializable {
         return this;
     }
 
-    @Override public String toString() {
+    @Override
+    public String toString() {
         return this.getMessage();
     }
 }
